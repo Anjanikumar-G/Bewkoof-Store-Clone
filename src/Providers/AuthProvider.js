@@ -25,7 +25,6 @@ export const AuthProvider = ({ children }) => {
   const [getSearchProduct, setSearchProduct] = useState("");
   const [getCategories, setCategories] = useState([]);
   const [orderCreatedResponse, setOrderCreatedResponse] = useState();
-
   const [orderHistory, setOrderHistory] = useState([]);
 
   const NameHandler = (data) => {
